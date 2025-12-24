@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Christmas Greeting</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div id="snow-container"></div>
+  <div id="glitter-container"></div>
+  <div id="confetti-container"></div>
+
+  <div class="card-container">
+    <div class="envelope" id="envelope">
+      <div class="back"></div>
+      <div class="message">
+        <h1 id="reset-text">Merry Christmas 🎄</h1>
+        <p>Tap to open</p>
+      </div>
+      <div class="front"></div>
+      <div class="flap"></div>
+    </div>
+  </div>
+
+  <div class="fullscreen" id="fullscreen">
+    <div class="balloon-field" id="balloon-field"></div>
+    <div class="greeting-content">
+      <div class="lights-wrapper">
+        <span class="text">
+            <h1 id="reset-text">Merry Christmas</h1>
+            <hr style="width: 50px; margin: 10px auto; border-color: white;">
+            <h2>& Happy New Year</h2>
+        </span>
+        <div class="garland">
+            <span class="light"></span>
+            <span class="light star"></span>
+            <span class="light"></span>
+            <span class="light"></span>
+            <span class="light star"></span>
+            <span class="light"></span>
+            <span class="light"></span>
+            <span class="light star"></span>
+            <span class="light"></span>
+            <span class="light"></span>
+            <span class="light star"></span>
+            <span class="light"></span>
+            <span class="light"></span>
+            <span class="light star"></span>
+            <span class="light"></span>
+            <span class="light"></span>
+            <span class="light star"></span>
+            <span class="light"></span>
+            <span class="light"></span>
+            <span class="light star"></span>
+            <span class="light"></span>
+            <span class="light"></span>
+            <span class="light star"></span>
+            <span class="light"></span>
+        </div>
+      </div>
+      <p>Wishing you joy, love, and peace</p>
+    </div>
+  </div>
+
+  <div class="zoom-overlay" id="zoom-overlay">
+    <img id="zoom-image" alt="Zoomed photo" />
+  </div>
+
+  <audio id="bg-music" loop>
+    <source src="assets/Mistletoe.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="logic.js"></script>
+</body>
+</html>
